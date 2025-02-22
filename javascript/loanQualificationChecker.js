@@ -22,7 +22,7 @@ function getLoanMessage(annualIncome, creditScore) {
 let duplexLoanMsg = getLoanMessage(85000, 850)
 let condoLoanMsg = getLoanMessage(65000, 700)
 let carLoanMsg = getLoanMessage(45000, 660)
-let noLoanMsg = getLoanMessage(25000, 550)
+let noLoanMsg = getLoanMessage(25000, 600)
 
 console.log(duplexLoanMsg)
 
