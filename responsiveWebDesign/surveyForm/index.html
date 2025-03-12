@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fCC Questionário</title>
+</head>
+<body>
+    <h1 id="title">fCC Questionário</h1>
+    <p id="description">Obrigado por nos dedicar seu tempo para melhorarmos a plataforma.</p>
+    <form action="" id="survey-form">
+    <fieldset>
+       <label for="name" id="name-label">Nome<input type="text" id="name" name="name" placeholder="Coloque seu nome" required></label>
+       <label for="email" id="email-label">E-mail<input type="email" id="email" name="email" placeholder="Coloque seu email" required></label>
+       <label for="number" id="number-label">Idade<input type="number" id="number" name="number" min="13" max="100" placeholder="Idade"></label>
+       <select name="dropdown" id="dropdown">
+        <option value="">Escolha sua ocupação</option>
+        <option value="1">Estudante</option>
+        <option value="2">Estagiário</option>
+        <option value="3">Desenvolvedor Frontend</option>
+        <option value="4">Desenvolvedor Backend</option>
+        <option value="5">Desenvolvedor Fullstack</option>
+       </select>
+       <input type="radio" name="improve" id="improve" checked value="1">Com certeza
+       <input type="radio" name="improve" id="improve"value="2">Talvez
+       <input type="radio" name="improve" id="improve" value="3">Sem Chance
+       <input type="checkbox" name="learn" id="learn" value="1">HTML
+       <input type="checkbox" name="learn" id="learn" value="2">CSS
+       <input type="checkbox" name="learn" id="learn" value="3">Javascript
+       <textarea name="more" id="more" placeholder="Algo mais?"></textarea>
+       <input type="submit" id="submit" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>
